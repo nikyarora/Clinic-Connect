@@ -68,7 +68,7 @@ public class send_symptoms extends Activity {
 
         SmsManager smsManager = SmsManager.getDefault();
 //commented out for testing purposes
-       //smsManager.sendTextMessage("6509194010", null, encryptedMsg, null, null);
+       //smsManager.sendTextMessage("NUMBER", null, encryptedMsg, null, null);
 
     }
 }
