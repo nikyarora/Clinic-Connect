@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Get There:"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#000"/>
+
+    <com.usebutton.sdk.ButtonDropin
+        xmlns:button="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/main_dropin"
+        android:padding="5dp"
+        button:btn_buttonId="btn-6666d379ce3c04d9"
+        button:btn_textSize="20sp"
+        button:btn_textColor="#000"
+        button:btn_backgroundDrawable="@android:drawable/btn_default_small"
+        button:btn_backgroundColor="#ffffff"
+        button:btn_drawablePadding="15dp"
+        android:layout_marginTop="50dp"
+        button:btn_padding="5dp"
+        button:btn_paddingRight="10dp"
+        button:btn_paddingLeft="10dp"
+        button:btn_iconSize="20dp"
+        button:btn_gravity="center"
+        button:btn_textStyle="lower"
+        button:btn_font="Lobster-Regular.ttf"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find on Maps"
+        android:id="@+id/maps"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="120dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other Clinics"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:id="@+id/home"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"/>
+
+</LinearLayout>

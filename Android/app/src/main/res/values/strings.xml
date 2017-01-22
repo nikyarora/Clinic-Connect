@@ -1,0 +1,50 @@
+<resources>
+  <string name="app_name">clinicconnect</string>
+
+    <string-array name="types">
+<item>All</item>
+   <item>diabetes
+</item>
+    <item>primary care
+</item>
+      <item>hepatitis C clinic
+</item>
+     <item>gynecology
+</item>
+      <item>health education
+</item>
+   <item>dental
+</item>
+  <item>chronic disease
+</item>
+   <item>pediatrics
+</item>
+  <item>social services
+</item>
+  <item>family health
+</item>
+ <item>HIV testing
+</item>
+    <item>STDs
+</item>
+  <item>obstetrics
+</item>
+  <item>pregnancy
+</item>
+   <item>family planning
+</item>
+    <item>flu
+</item>
+   <item>immunizations
+</item>
+    <item>women’s health
+</item>
+   <item>counseling
+</item>
+  <item>behavioral health
+</item>
+  <item>lab tests
+</item>
+   <item>skin
+</item>    </string-array>
+</resources>
